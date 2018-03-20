@@ -1,5 +1,5 @@
 <?php
-date_default_timezone_set("Asia/Bangkok");
+date_default_timezone_set("Asia/Infonesia");
 error_reporting(0);
 
 
