@@ -6,8 +6,8 @@ error_reporting(0);
 function call($addr) {
     $data= "address=$addr&sponsor=10507";
     $cok = tempnam('tmp','avo'.rand(1000000,9999999).'tmp.txt');
-    $c = curl_init("https://thebestbitcoinfaucet.com/");
-    curl_setopt($c, CURLOPT_REFERER, "https://thebestbitcoinfaucet.com/");
+    $c = curl_init("https://www.999dice.com/");
+    curl_setopt($c, CURLOPT_REFERER, "https://www.999dice.com/");
     curl_setopt($c, CURLOPT_FOLLOWLOCATION, true);
     curl_setopt($c, CURLOPT_USERAGENT, "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36");
     curl_setopt($c, CURLOPT_POSTFIELDS, $data);
@@ -33,8 +33,8 @@ function call($addr) {
     
  $data= "faucetclaim=$addr";
     
-    $c = curl_init("https://thebestbitcoinfaucet.com/");
-    curl_setopt($c, CURLOPT_REFERER, "https://thebestbitcoinfaucet.com/");
+    $c = curl_init("https://www.999dice.com/");
+    curl_setopt($c, CURLOPT_REFERER, "https://www.999dice.com/");
     curl_setopt($c, CURLOPT_FOLLOWLOCATION, true);
     curl_setopt($c, CURLOPT_USERAGENT, "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36");
     curl_setopt($c, CURLOPT_POSTFIELDS, $data);
@@ -98,6 +98,6 @@ for($i=0; $i<100; $i++) {
     } else {
         exit("[" . date("H:i:s") . "] " . $RD . "Invalid cookies!" . $CC);
     }
-    echo "[" . date("H:i:s") . "] Sleep for 60sec...\n";
-    sleep(60);
+    echo "[" . date("H:i:s") . "] Sleep for 150sec...\n";
+    sleep(150);
 }
